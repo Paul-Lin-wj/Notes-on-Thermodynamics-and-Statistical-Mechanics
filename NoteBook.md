@@ -59,6 +59,7 @@ the equilibrium(平衡) state corresponds(对应) to the macrostate with the lar
 
 ##### Boltzmann Entropy Formula（玻尔兹曼熵公式）
 $$ S = k \ln \Omega $$
+
 k is Boltzmann constant.
 
 - 定义依据：由于两个孤立系统组合后，总微观态数量满足 “乘积性(系统 1 的每一个微观态都能与系统 2 的每一个微观态搭配，形成复合系统的一个新微观态。)”（$\Omega_{\text{总}} = \Omega_1 \times \Omega_2$），而熵作为广延量需满足 “加和性”，因此对

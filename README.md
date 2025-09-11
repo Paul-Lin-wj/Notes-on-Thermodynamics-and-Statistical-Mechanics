@@ -1,2 +1,3 @@
-Topics-in-statistical-mechanics
-A Notebook for Topics in statistical mechanics
+## 热力学与统计力学笔记
+#### 教材：Topics-in-statistical-mechanics
+

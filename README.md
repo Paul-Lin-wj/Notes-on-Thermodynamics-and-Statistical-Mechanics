@@ -1,2 +1,2 @@
-# -_Topics-in-statistical-mechanics
+Topics-in-statistical-mechanics
 A Notebook for Topics in statistical mechanics

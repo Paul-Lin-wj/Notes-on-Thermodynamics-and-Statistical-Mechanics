@@ -39,6 +39,7 @@ to absolute zero.
 $$ E = \sum_{j} P_{j} E_{j} $$
 
 微分：
+
 $$ \text{d}E = \sum_{j} p_j \text{d}E_j + \sum_{j} E_j \text{d}p_j $$
 
 $\sum_{j} p_j \text{d}E_j$ 对应微观态自身能量水平的变化

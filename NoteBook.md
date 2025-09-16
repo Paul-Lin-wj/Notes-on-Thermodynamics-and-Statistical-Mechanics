@@ -38,6 +38,7 @@ which we call entropy, which never decreases in a physical process.
 to absolute zero.
 
 #### 1.2.2. Probabilistic interpretation of the First Law(第一定律的概率解释)
+
 $$ E = \sum_{j} P_{j} E_{j} $$
 
 微分：
@@ -68,3 +69,62 @@ k is Boltzmann constant.
 - 定义依据：由于两个孤立系统组合后，总微观态数量满足 “乘积性(系统 1 的每一个微观态都能与系统 2 的每一个微观态搭配，形成复合系统的一个新微观态。)”（ $\Omega_{\text{总}} = \Omega_1 \times \Omega_2$ ），而熵作为广延量需满足 “加和性”，因此对
 Ω
 取对数（对数可将乘积转化为加和）
+
+## 1.3. Interactions - The Conditions for Equilibrium
+
+#### 1.3.1. Thermal intersction - Temperature
+
+![alt text](image.png)
+
+$$ \Omega = \Omega_1(E_1) \times \Omega_2(E_2) $$
+
+$$ E_0 = E_1 + E_2 = const$$
+
+$$ \Omega = \Omega_1(E) \times \Omega_2(E_0 - E) $$
+
+$$
+\begin{align*}
+\frac{\partial \Omega}{\partial E} &= \frac{\partial \Omega_1}
+
+{\partial E} \Omega_2 - \Omega_1 \frac{\partial \Omega_2}{\partial E} = 0 \\
+\frac{1}{\Omega_1} \frac{\partial \Omega_1}{\partial E} &= \frac{1}{\Omega_2} \frac{\partial \Omega_2}
+
+{\partial E} \\
+\frac{\partial \ln \Omega_1}{\partial E} &= \frac{\partial \ln \Omega_2}{\partial E}
+\end{align*}
+$$
+
+$$
+\Delta S = \left( \frac{\partial S_1}{\partial E} - \frac{\partial S_2}{\partial E} \right) \Delta E_1 \geq 0
+$$
+
+$E_1$ increases if $\frac{\partial S_1}{\partial E} > \frac{\partial S_2}{\partial E}$
+
+$E_1$ decreases if $\frac{\partial S_1}{\partial E} < \frac{\partial S_2}{\partial E}$
+
+$$
+\text{High } T \equiv \text{Low } \frac{\partial S}{\partial E}
+$$
+
+$$
+\text{Low } T \equiv \text{High } \frac{\partial S}{\partial E}
+$$
+
+$$
+\frac{1}{T} = \frac{\partial S}{\partial E}
+$$
+
+#### 1.3.2. Volume change - pressure
+
+![alt text](image-1.png)
+
+ $$  E_1 + E_2 = E_0 = \text{const.}$$
+ $$ 
+  V_1 + V_2 = V_0 = \text{const.} $$
+
+对能量和体积最大化熵
+
+$$\frac{\partial S_1}{\partial E} = \frac{\partial S_2}{\partial E} $$
+$$\frac{\partial S_1}{\partial V} = \frac{\partial S_2}{\partial V} $$
+
+without a flow of heat,thermodynamic equilibrium is not possible.
